@@ -34,7 +34,7 @@ npm install && npm start
 2. #### INSTALL WINDOWS
  
 ```
-* install git [`CLICK`](https://git-scm.com/downloads)
+Install Git [**CLICK HERE**](https://git-scm.com/downloads)
 ```
 ```
 install nodejs [`CLICK`](https://nodejs.org/en/download)
