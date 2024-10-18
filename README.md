@@ -31,7 +31,7 @@ npm install && npm start
 ```
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-2. #### INSTALL WINDOWS
+2. #### INSTALL IN WINDOWS
  
 * install git [`CLICK`](https://git-scm.com/downloads)
 
