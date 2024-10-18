@@ -39,7 +39,7 @@ npm install && npm start
 
 * install ffmpeg [`CLICK`](https://ffmpeg.org/download.html)
 
-* install imagemagick [`Klik Disini`](https://imagemagick.org/script/download.php)
+* install imagemagick [`CLICK`](https://imagemagick.org/script/download.php)
 
 ```
 git clone https://github.com/Rzky7c/Whatsapp-Bot
