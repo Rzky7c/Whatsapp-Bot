@@ -34,16 +34,16 @@ npm install && npm start
 2. #### INSTALL WINDOWS
  
 ```
-install git [`CLICK`](https://git-scm.com/downloads)
+* install git [`CLICK`](https://git-scm.com/downloads)
 ```
 ```
 install nodejs [`CLICK`](https://nodejs.org/en/download)
 ```
 ```
-Instal ffmpeg [`CLICK`](https://ffmpeg.org/download.html)
+install ffmpeg [`CLICK`](https://ffmpeg.org/download.html)
 ```
 ```
-Instal imagemagick [`Klik Disini`](https://imagemagick.org/script/download.php)
+install imagemagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 ```
 ```
 git clone https://github.com/Rzky7c/Whatsapp-Bot
