@@ -56,6 +56,8 @@ npm install && npm start
 </h2>
    
 ## 
+
+- Dont selling this source code, this all free.
 - If a plugin's code is obfuscated, you do not have permission to edit, modify, or alter it in any form.
 - Remember: Always give proper credits if you're using or reuploading my plugins/files.
 
