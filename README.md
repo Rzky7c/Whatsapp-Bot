@@ -2,32 +2,21 @@
 #### WHATSAPP BOT USING BAILEYS
 
   
-1. #### INSTALL IN TERMUX / VPS
+1. #### INSTALL IN TERMUX
  
 ```
 apt update && apt upgrade -y
 ```
-```
-pkg install proot-distro
-```
-```
-proot-distro install ubuntu
+pkg install nodejs
 ```
 ```
-proot-distro login ubuntu
+pkg install git
 ```
-```
-apt update && apt upgrade -y
-```
-```
-apt install -y webp git ffmpeg curl imagemagick
-```
-```
-apt -y remove nodejs
 curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
 ```
 ```
 git clone https://github.com/Rzky7c/Whatsapp-Bot
+```
 cd Whatsapp-Bot
 ```
 ```
