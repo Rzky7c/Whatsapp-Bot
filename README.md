@@ -3,7 +3,10 @@
 
 ### Change in setting.js
 ```
-apikey = 'yourkey'
+const website = {
+    web: 'https://api.rzky.my.id',
+    apikey: 'xxxx' // ambil apikey nya di website https://api.rzky.my.id/
+}
 ```
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
