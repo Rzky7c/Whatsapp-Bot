@@ -14,9 +14,6 @@ pkg install nodejs
 pkg install git
 ```
 ```
-curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
-```
-```
 git clone https://github.com/Rzky7c/Whatsapp-Bot
 cd Whatsapp-Bot
 ```
