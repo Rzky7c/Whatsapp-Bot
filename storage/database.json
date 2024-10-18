@@ -1,0 +1,61 @@
+{
+    "users": [
+        {
+            "jid": "6281281872699@s.whatsapp.net",
+            "name": "Rzky",
+            "limit": "20",
+            "id": "BEP6H",
+            "time": 1729200206377,
+            "banned": {
+                "status": false,
+                "time": 0
+            },
+            "premium": {
+                "status": false,
+                "time": 0
+            },
+            "sticker": {
+                "author": false,
+                "name": false
+            }
+        }
+    ],
+    "groups": [
+        {
+            "jid": "120363302489531660@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": []
+        }
+    ],
+    "settings": [
+        {
+            "jid": "62881082045919@s.whatsapp.net",
+            "mode": "public",
+            "cover": "",
+            "prefix": [
+                "/",
+                "!",
+                "#",
+                ".",
+                "-",
+                "s!",
+                "",
+                "🪶"
+            ],
+            "autojoin": false
+        }
+    ],
+    "stickers": [],
+    "others": []
+}
