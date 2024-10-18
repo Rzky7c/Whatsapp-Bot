@@ -2,7 +2,7 @@
 #### WHATSAPP BOT USING BAILEYS
 
 ### Change in setting.js
-```
+ ```javascript
 const website = {
     web: 'https://api.rzky.my.id',
     apikey: 'xxxx' // ambil apikey nya di website https://api.rzky.my.id/
