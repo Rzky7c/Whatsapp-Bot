@@ -1,6 +1,10 @@
 
 #### WHATSAPP BOT USING BAILEYS
 
+### Change in setting.js
+```
+apikey = 'yourkey'
+```
   
 1. #### INSTALL IN TERMUX
  
