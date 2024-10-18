@@ -31,6 +31,31 @@ npm install && npm start
 ```
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+2. #### INSTALL WINDOWS
+ 
+```
+install git [`CLICK`](https://git-scm.com/downloads)
+```
+```
+install nodejs [`CLICK`](https://nodejs.org/en/download)
+```
+```
+Instal ffmpeg [`CLICK`](https://ffmpeg.org/download.html)
+```
+```
+Instal imagemagick [`Klik Disini`](https://imagemagick.org/script/download.php)
+```
+```
+git clone https://github.com/Rzky7c/Whatsapp-Bot
+```
+```
+cd Whatsapp-Bot
+```
+```
+npm install && npm start
+```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 <h2 align="center">  Information
 </h2>
    
