@@ -19,7 +19,12 @@ moment.locale('es');
 
 const website = {
     web: 'https://api.rzky.my.id',
-    apikey: 'xxxx' // ambil apikey nya di website https://api.rzky.my.id/
+    apikey: 'xxxx' // ambil apikey nya di website https://api.rzky.my.id
+}
+
+const toko = {
+    merchantid: 'M241019UKGOT764', // ambil merchantid nya di website tokopay.id
+    secret: '3ec1fc1098f77e018ec17dd4a156365a7caa69c7a78a127b846680efcce31140' // ambil secret key nya di website tokopay.id
 }
 
 const owner = [
@@ -47,8 +52,8 @@ global.tempDir = path.resolve(`./${tempName}`);
 
 global.img = {
     avatar: readFileSync('././storage/media/image/avatar.jpg'),
-    cover: readFileSync('././storage/media/image/cover.png')
+    cover: readFileSync('././storage/media/image/cover.jpg')
 }
 
 
-module.exports = { timeZone, social, owner, website, defaultPrefix, menu, sticker };
+module.exports = { timeZone, owner, website, defaultPrefix, menu, toko, sticker };
