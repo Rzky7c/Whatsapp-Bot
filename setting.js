@@ -23,8 +23,8 @@ const website = {
 }
 
 const toko = {
-    merchantid: 'M241019UKGOT764', // ambil merchantid nya di website tokopay.id
-    secret: '3ec1fc1098f77e018ec17dd4a156365a7caa69c7a78a127b846680efcce31140' // ambil secret key nya di website tokopay.id
+    merchantid: 'xxxxxxx', // ambil merchantid nya di website tokopay.id
+    secret: 'xxxxxx' // ambil secret key nya di website tokopay.id
 }
 
 const owner = [
