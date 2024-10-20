@@ -9,6 +9,7 @@ const {
 const { Boom } = require('@hapi/boom');
 const pino = require('pino');
 const readline = require('readline');
+const fs = require('fs');
 const chalk = require('chalk');
 
 const { groupParticipantsUpdate } = require('./event/group.js');
@@ -22,6 +23,28 @@ const db = require('./database.js');
 const processedMessages = new Set();
 const usePairingCode = process.argv.includes('--use-pairing-code');
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+const jsonFilePath = './storage/database/message_count.json';
+
+function loadFromJson() {
+    if (fs.existsSync(jsonFilePath)) {
+        const rawData = fs.readFileSync(jsonFilePath);
+        return JSON.parse(rawData);
+    }
+    return {};
+}
+
+function createReadlineInterface() {
+    return readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    });
+}
+
+function saveToJson(data) {
+    fs.writeFileSync(jsonFilePath, JSON.stringify(data, null, 2));
+}
+let groupMessageCount = loadFromJson();
 
 async function connectSock() {
     const { state, saveCreds } = await useMultiFileAuthState('session', pino({ level: 'fatal' }));
@@ -70,6 +93,26 @@ async function connectSock() {
 
             const msg = serialize(m, sock);
             handler(msg, sock);
+
+            if (msg && msg.key.fromMe === false) {
+                const groupId = msg.key.remoteJid; 
+                const senderId = msg.key.participant; 
+
+                if (!groupMessageCount[groupId]) {
+                    groupMessageCount[groupId] = {};
+                }
+
+                if (senderId && senderId !== 'undefined') {
+                    if (groupMessageCount[groupId][senderId]) {
+                        groupMessageCount[groupId][senderId]++;
+                    } else {
+                        groupMessageCount[groupId][senderId] = 1;
+                    }
+                    saveToJson(groupMessageCount);
+                } else {
+                    console.warn(`Sender ID is undefined for message in group ${groupId}`);
+                }
+            }
 
             setTimeout(() => processedMessages.delete(m.key.id), 420000);
         } catch (e) {

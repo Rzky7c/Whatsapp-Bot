@@ -1,6 +1,6 @@
 
 {
-    "name": "Heavy Craft",
+    "name": "HeavyCraft",
     "version": "0.0.13",
     "description": "Heavy Craft WhatsApp bot using Baileys library.",
     "main": "index.js",

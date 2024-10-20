@@ -162,7 +162,7 @@ exports.cmd = {
                                     buttonParamsJson: JSON.stringify({
                                         display_text: 'Rest API 🍟',
                                         url: website.web,
-                                        merchant_url: social.whatsapp
+                                        merchant_url: website.web
                                     })
                                 }
                             ],

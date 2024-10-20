@@ -36,6 +36,96 @@
                 }
             },
             "users": []
+        },
+        {
+            "jid": "120363333343821936@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        },
+        {
+            "jid": "120363303462382174@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        },
+        {
+            "jid": "120363268602658358@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
         }
     ],
     "settings": [
