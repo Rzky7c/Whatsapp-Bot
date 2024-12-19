@@ -18,8 +18,8 @@ const tempName = 'temp';
 moment.locale('es');
 
 const website = {
-    web: 'https://beforelife.my.id',
-    apikey: 'xxxx' // ambil apikey nya di website https://api.rzky.my.id
+    web: 'https://beforelife.me',
+    apikey: 'xxxx' // ambil apikey nya di website https://beforelife.me
 }
 
 const toko = {
