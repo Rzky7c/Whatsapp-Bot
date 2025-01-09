@@ -1,0 +1,211 @@
+{
+    "users": [
+        {
+            "jid": "6281281872699@s.whatsapp.net",
+            "name": "Rzky",
+            "limit": "20",
+            "id": "BEP6H",
+            "time": 1729200206377,
+            "banned": {
+                "status": false,
+                "time": 0
+            },
+            "premium": {
+                "status": false,
+                "time": 0
+            },
+            "sticker": {
+                "author": false,
+                "name": false
+            }
+        }
+    ],
+    "groups": [
+        {
+            "jid": "120363302489531660@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": []
+        },
+        {
+            "jid": "120363333343821936@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        },
+        {
+            "jid": "120363303462382174@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        },
+        {
+            "jid": "120363268602658358@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        },
+        {
+            "jid": "120363356095320313@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        },
+        {
+            "jid": "120363368138272841@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": [
+                {
+                    "jid": "6281281872699@s.whatsapp.net",
+                    "level": 1,
+                    "exp": 0,
+                    "money": 0,
+                    "bank": 0,
+                    "limit": 7,
+                    "cooldown": {
+                        "work": 0,
+                        "steal": 0,
+                        "daily": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "settings": [
+        {
+            "jid": "62881082045919@s.whatsapp.net",
+            "mode": "public",
+            "cover": "",
+            "prefix": [
+                "/",
+                "!",
+                "#",
+                ".",
+                "-",
+                "s!",
+                "",
+                "🪶"
+            ],
+            "autojoin": false
+        }
+    ],
+    "stickers": [],
+    "others": []
+}
