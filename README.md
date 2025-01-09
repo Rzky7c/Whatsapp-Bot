@@ -7,11 +7,6 @@ const website = {
     web: 'https://beforelife.me',
     apikey: 'xxxx' // ambil apikey nya di website https://beforelife.me
 }
-
-const toko = {
-    merchantid: 'xxxxxxx', // ambil merchantid nya di website tokopay.id
-    secret: 'xxxxxx' // ambil secret key nya di website tokopay.id
-}
 ```
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -69,4 +64,4 @@ npm install && npm start
 
   
 <p align="center">
-Heavy Craft
+Beforelife For Everyone
