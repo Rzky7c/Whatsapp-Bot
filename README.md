@@ -5,7 +5,7 @@
  ```javascript
 const website = {
     web: 'https://beforelife.me',
-    apikey: 'xxxx' // ambil apikey nya di website https://beforelife.me
+    apikey: 'HC-kNZ5HMVfuiziipJ' // ambil apikey nya di website https://beforelife.me
 }
 ```
 
