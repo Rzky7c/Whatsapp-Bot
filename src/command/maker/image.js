@@ -219,27 +219,30 @@ exports.cmd = {
             await msg.reply('Nih kak sudah jadi!', { image: hasil });
         }
         if (command == 'brat') {
-            
             if (!text) {
                 return msg.reply(`✘ Masukkan text untuk memulai.`);
             }
-            const parts = text.split(' ');
-            if (parts.length < 1) {
-                return msg.reply(`✘ Harap masukkan 1 kalimat contoh: .brat title`);
+            const query = text.replace(/\s+/g, '+');
+        
+            try {
+                let hasil = await (await fetch(`${website.web}/api/maker/brat?query=${query}&apikey=${website.apikey}`)).buffer();
+    
+                let opts = {
+                    ...sticker,
+                    emojis: ['🧶', '🐈'],
+                    isFull: true,
+                    other: {
+                        'is-ai-sticker': 1
+                    }
+                };
+        
+                let buffer = await toWebp(hasil, opts);
+                await msg.reply({ sticker: buffer });
+            } catch (error) {
+                // Handle errors gracefully
+                console.error(error);
+                return msg.reply(`✘ Terjadi kesalahan saat membuat sticker.`);
             }
-            const title = parts[0];
-            let hasil = await (await fetch(`${website.web}/api/maker/brat?query=${title}&apikey=${website.apikey}`)).buffer()
-
-            let opts = {
-                ...sticker,
-                emojis: ['🧶', '🐈'],
-                isFull: true,
-                other: {
-                    'is-ai-sticker': 1
-                }
-            };
-            let buffer = await toWebp(hasil, opts);
-            await msg.reply({ sticker: buffer });
-        }
+        }        
     }
 };
