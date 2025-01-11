@@ -60,6 +60,7 @@ async function connectSock() {
     });
   
     if (!sock.authState.creds.registered) {
+      logger.info('Silahkan ketik nomer whatsapp anda di bawah!');
       const number = await question(`Silahkan masukan nomer Whatsapp :`);
       const formatNumber = number.replace(/[\s+\-()]/g, "");
       const code = await sock.requestPairingCode(formatNumber);

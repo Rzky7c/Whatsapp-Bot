@@ -229,9 +229,7 @@ exports.cmd = {
             }
             const title = parts[0];
             let hasil = await (await fetch(`${website.web}/api/maker/brat?query=${title}&apikey=${website.apikey}`)).buffer()
-            const filePath = path.join(tempDir, `${Date.now()}.png`);
 
-            fs.writeFileSync(filePath, hasil);
             let opts = {
                 ...sticker,
                 emojis: ['🧶', '🐈'],
