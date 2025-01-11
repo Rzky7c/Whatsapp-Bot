@@ -27,7 +27,7 @@ exports.cmd = {
     },
     async start({ msg, text }) {
         if (!text) {
-            return msg.reply(`✘ Masukkan URL video YouTube untuk mengunduh video.`);
+            return msg.reply(`✘ Masukkan URL video YouTube untuk mengunduh Music.`);
         }
         if (!text.match(/youtube\.com|youtu\.be/g)) {
             return msg.reply(`✘ Invalid url, masukkan url youtube dengan benar`);

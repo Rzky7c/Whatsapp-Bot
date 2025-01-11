@@ -23,7 +23,7 @@ const website = {
 }
 
 const owner = [
-    ['6281281872699', 'ʜᴇᴀᴠʏ ᴄʀᴀꜰᴛ'],
+    ['6281xxxxxx', 'Beforelife'],
 ];
 
 const menu = {
